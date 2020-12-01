@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+	box-sizing: border-box;
+}
+
+body a{
+	text-decoration: none;
+}
+body{
+	margin: 0%;
+
+}
+.logo{
+	width: 10%;
+	height: auto;
+	padding: 10px 0;
+	margin-left: 50px;
+}
+
+
+/*image*/
+.ind-img-container{
+	position: absolute;
+	height:90vh;
+	width: 100%;
+	margin:0;
+}
+.ind-img-text{
+	position:absolute;
+	font-family: "Roboto", sans-serif;
+	left:10%;
+	top: 30%;
+	right: 50%;
+	padding:1%;
+	font-size: xx-large;
+	text-transform: uppercase;
+}
+.button-1{
+	position: absolute;
+	font-family: "Roboto", sans-serif;
+	left: 20%;
+    bottom: 40%;
+	padding: 15px 10px;
+    background-color: #4CAF50;
+    color:#FFFFFF;
+    font-size: x-large;
+    box-shadow: 2px 2px #0000001f;
+    border: none;
+	text-transform: uppercase;
+	transition: background-color 0.5s ease-in-out;
+	text-decoration: none;
+	cursor:pointer;
+}
+.ind-img-container img{
+	position: absolute;
+	height: 90vh;
+
+}
+.ind-img-scroll{
+	position: fixed;
+	bottom: 0;
+	cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: xx-large;
+    width: 100%; 
+    padding: 10px;
+    text-align: center;
+
+}
+.fa{
+	color: #f5f5f580; 
+	cursor: pointer;
+    transition: color 0.5s ease-in-out;
+
+}
+
+.button-1:hover{
+    background-color: #009006;
+}
+
+.ind-img-scroll:hover{
+    color: #ffffff; 
+}    
+
+/*Mobile Navigation*/

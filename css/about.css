@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-color: #f8f8f8;
+	background-image: url("../img/Campus.jpg");
+	background-repeat: no-repeat;
+	background-size:700px;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+body a{
+	text-decoration: none;
+}
+
+.body-content-top{
+	margin: 0 20% ;
+	margin-bottom: 400px;	
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #FFFFFF;
+}
+
+.body-content-bottom{
+	margin:0px 10%;	
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #FFFFFF;
+}
+
+.content{
+	margin: 0 15%;
+}
+	
+hr{
+	color:#000;
+	height:2px;
+}
+
+.body-info{
+	text-align:center;
+}
+
+
+/*about container*/
+
+h1{
+	/*color:#4CAF50;*/
+	text-align: center;
+}
+
+.whiteLogo{
+	width: 10%;
+	height: auto;
+	margin-left: 50px;
+}
+
+.videoTitle{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 30px;
+	/*border-top: 1px solid;*/
+
+}
+.videoBtns{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.videoBtns button{
+	margin: 0px 10px 10px;
+	padding: 5px 20px;
+}
+.video{
+    display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+#stock{
+    height: 50vh;
+	width: 50vw;
+	border: greenyellow solid 1px;
+}
+
+@media only screen and (min-width: 768px) {
+	.body-content{
+		margin:0 15%;	
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+	}
+}

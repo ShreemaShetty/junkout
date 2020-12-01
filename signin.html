@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>JunkOut:Sign In</title>
+  <link href='css/signin.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='js/validate.js' type='text/javascript'></script>
+
+</head>
+
+<body>
+  <div class="content">
+    <div class="login-page">
+      <div class="form-user">
+        <img class="logo" src="../junkout/img/New Logo black.png">
+
+        <!--user login form-->
+        <form id="log" action="signin.php" class="login-form" method="POST">
+          <div class="fontuser">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            <input type="text" name="username" placeholder="Mobile Number or E-mail Address" autocomplete="on"
+              required />
+          </div>
+          <div class="fontpassword">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password" name="pass" placeholder="Password" required />
+          </div>
+          <input type="submit" class="button" name="loginbtn" value="Login" />
+          <p class="message">Not registered? <a href="register1.php">Create an account</a></p>
+          <p class="message">Are you a Recycler? <a href="recyclerRegister.php">Create Recycler Account</a></p>
+          <p class="back"><a href="index.php">Maybe Later</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

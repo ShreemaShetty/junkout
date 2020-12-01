@@ -1,0 +1,9 @@
+/*NAV CHANGES*/
+#navbarDropdown2{
+	border-color:#FFFFFF; 
+	color: #FFFFFF; 
+}
+
+.dropdown-item.active, .dropdown-item:active{
+  background-color:#4CAF50;
+}

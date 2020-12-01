@@ -1,0 +1,15 @@
+<!--user registration form-->
+<form id="reg" class="register-form" name="myForm" autocomplete="on" method="POST" 
+onsubmit="return validateRegform()" action="">
+  <div class="full-name">
+  <input id="fname" type="text" name="customer_fname" placeholder="First Name" />
+  <input id="lname" type="text" name="customer_lname" placeholder="Last Name" />
+  </div>
+  <input type="text" name="customer_email" placeholder="E-mail Address" />
+  <input type="text" name="customer_phone" placeholder="Mobile Number" />
+  <input type="password" name="customer_password"  placeholder="Password" autocomplete="off" />
+  <input type="password" name="customer_checkPassword"  placeholder="Re-enter Password" autocomplete="off" />
+  <input type="submit" class="button" name="submit" value="Create"/>
+  <p class="message">Already registered? <a href="#">Sign In</a></p>
+  <p class="back"><a href="index.html">Go to Home</a></p>
+</form>

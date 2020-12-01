@@ -1,0 +1,35 @@
+body{
+    align-items: center;
+}
+
+.location{
+    margin: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+}
+.details{
+    width: 50%;
+    margin: auto;
+}
+
+.plastic{
+    padding-right: 50px;
+}
+
+.check1{
+    padding-right: 50px ;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
